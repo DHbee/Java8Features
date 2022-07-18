@@ -16,6 +16,8 @@ import java.util.stream.Stream;
     Predicate contains below method
 
     boolean test (T t)
+
+    Predicate means filter
  */
 public class PredicateImpl {
 
