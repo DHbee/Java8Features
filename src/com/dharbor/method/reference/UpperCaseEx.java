@@ -11,11 +11,16 @@ public class UpperCaseEx {
         list.add("abc");
         list.add("def");
         list.add("ghi");
+        list.add("");
         list.add("jkl");
+        list.add("");
 
         list.stream().map( String::toUpperCase)
                 .forEach(System.out::println);
 
+        list.stream().filter(String::isEmpty).forEach(
+                (y) -> System.out.println(y)
+        );
         
     }
 }

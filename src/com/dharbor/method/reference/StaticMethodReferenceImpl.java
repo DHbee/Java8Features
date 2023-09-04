@@ -18,8 +18,6 @@ public class StaticMethodReferenceImpl {
         list.add("abc4");
         list.add("");
 
-        //list.stream().anyMatch(item -> StaticMethodReferenceImpl.isEmpty(item));
-        //                 (OR)
         list.stream().anyMatch(StaticMethodReferenceImpl::isEmpty);
 
     }

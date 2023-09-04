@@ -12,7 +12,7 @@ public class Stream1 {
     /*
         1. Stream is a interface
         2. stream() in Collecion class is default method
-        what is difference between stream.count() & map.size();
+        3. what is difference between stream.count() & map.size();
      */
     public static void main(String[] args) {
 
