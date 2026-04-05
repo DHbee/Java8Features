@@ -55,7 +55,7 @@ public class Stream1 {
                 .peek(e -> System.out.println("Filtered value: " + e))
                 .collect(Collectors.toList());
 
-        System.out.println("Test");
+        System.out.println("Test2");
 
 
     }
